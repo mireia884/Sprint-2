@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Web Boostrap y Sass</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Tipografía -->
+
+    <!-- Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Muli font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav class="p-5 navbar navbar-expand-lg">
+      <div class="px-5 container-fluid">
+
+       <a href="#portada"> <img width="100%" src="img/logo-bookmark.svg"></a>
+        <div class="d-flex justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
+         
+          <div class="d-flex px-5">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-muted" aria-current="page" href="#">FEATURES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="#">PRICING</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a class="nav-link text-muted" href="#" tabindex="-1" aria-disabled="true">CONTACT</a>
+              </li>
+            </ul>
+            <button type="button" class="shadow-sm btn btn-danger text-white">LOGIN</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- fin nav -->
+
+    <section class="container-fluid">
+      <div class="row">
+        <div class="mb-5 p-4 col d-flex justify-content-end align-items-end flex-column">
+          <div class="w-50 pb-3"><h1>A simple Bookmark Manager</h1></div>
+          <div class="w-50 pb-4">
+            <p class="fs-5 text-muted">A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for free.
+            </p>
+          </div>
+          <div class="w-50 pb-3">
+            <button type="button" class="mr-2 shadow-sm btn btn-primary text-white">Get it on Chrome</button>
+            <button type="button" class="shadow-sm btn btn-secondary text-black">Get it on Firefox</button>
+          </div>
+
+        </div>
+        <div class="col d-flex align-items-center pt-5">
+          <div class="position-relative">
+          <img src="img/illustration-hero.svg" class="img-fluid" alt="Responsive image">
+          </div> 
+          <div class="forma1"></div>
+        </div>
+      </div>
+
+    </section>  
+
+   <!-- Features section --> 
+   <section class="container-fluid vh-100">
+    <div class="row">
+      <div class="col">
+       <div class="pt-5 d-flex justify-content-center w-100">
+         <h2>Features</h2>
+       </div>
+       <div class="p-3 d-flex justify-content-center w-100">
+         <p class="text-center fs-5 text-muted">Our aim is to make it quick and easy or you to acces your <br>
+           favourite websites.Your bookmarks sync between your devicess<br>
+           so you can access them on the go.
+         </p>
+       </div>
+
+       <!-- Tabs -->
+       <div class="p-4 d-flex justify-content-center w-100">
+         <div class="tabbable-line">
+           <ul class="nav nav-tabs">
+             <li class="active mr-5">
+               <a href="#tab_default_1" data-toggle="tab">
+               Simple Bookmarking </a>
+             </li>
+             <li class="mr-5">
+               <a href="#tab_default_2" data-toggle="tab">
+               Speedy searching </a>
+             </li>
+             <li>
+               <a href="#tab_default_3" data-toggle="tab">
+               Easy sharing </a>
+             </li>
+           </ul>
+          </div> 
+       </div>
+       <div class="tab-content">
+         <div class="tab-pane active" id="tab_default_1">
+           <!-- 1er div -->
+         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+           <div class="row">
+             <div class="col d-flex justify-content-end align-items-center pt-5 pb-5">
+               <div class="position-relative">
+                 <img src="img/illustration-features-tab-1.svg" class="img-fluid" alt="Responsive image">
+                 </div> 
+                 <div class="forma2"></div>
+             </div>
+       
+             <div class="mb-2 p-5 col d-flex justify-content-center align-items-start flex-column">
+               <div class="w-60 pb-3"><h2>Bookmark in one click</h2></div>
+               <div class="w-50 pb-4">
+                 <p class="fs-5 text-muted">Organize your bookmarks however you like. Our simple
+                   drag-and-drop interface gives you complete control over how you manage your favourite sites.
+                 </p>
+               </div>
+               <div class="w-50 pb-3">
+                 <button type="button" class="p-2 mr-2 shadow-sm btn btn-primary text-white">More info</button>
+               </div>
+       
+             </div>
+           </div>
+         </div> 
+         </div>
+         <div class="tab-pane" id="tab_default_2">
+           <!-- 2o div -->
+           <div class="row">
+             <div class="col d-flex justify-content-end align-items-center pt-5 pb-5">
+               <div class="position-relative">
+                 <img src="img/illustration-features-tab-2.svg" class="img-fluid" alt="Responsive image">
+                 </div> 
+                 <div class="forma2"></div>
+             </div>
+       
+             <div class="mb-2 p-5 col d-flex justify-content-center align-items-start flex-column">
+               <div class="w-60 pb-3"><h2>Intelligent search</h2></div>
+               <div class="w-50 pb-4">
+                 <p class="fs-5 text-muted">Our powerful search feature will help you find saved
+                   sites in no time at all. No need to trawl through all of
+                   your bookmarks.
+                 </p>
+               </div>
+               <div class="w-50 pb-3">
+                 <button type="button" class="p-2 mr-2 shadow-sm btn btn-primary text-white">More info</button>
+               </div>
+       
+             </div>
+           </div>
+         </div>
+         <div class="tab-pane" id="tab_default_3">
+           <!-- 3er div -->
+           <div class="row">
+             <div class="col d-flex justify-content-end align-items-center pt-5 pb-5">
+               <div class="position-relative">
+                 <img src="img/illustration-features-tab-3.svg" class="img-fluid" alt="Responsive image">
+                 </div> 
+                 <div class="forma2"></div>
+             </div>
+       
+             <div class="mb-2 p-5 col d-flex justify-content-center align-items-start flex-column">
+               <div class="w-60 pb-3"><h2>Share your bookmarks</h2></div>
+               <div class="w-50 pb-4">
+                 <p class="fs-5 text-muted">Easy share your bookmarks and collections
+                   with others. Create a shareable link that you can send at the click of a button.
+                 </p>
+               </div>
+               <div class="w-50 pb-3">
+                 <button type="button" class="p-2 mr-2 shadow-sm btn btn-primary text-white">More info</button>
+               </div>
+       
+             </div>
+         </div>
+       </div>
+
+
+     </div>
+   </div>
+
+    </div>
+
+    
+ </section>
+
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="pt-4 d-flex justify-content-center w-100">
+          <h2>Download the extension</h2>
+        </div>
+        <div class="p-3 d-flex justify-content-center w-100">
+          <p class="text-center fs-5 text-muted">We've got more browsers in the pipeline. Please do let us know if <br>
+            you've got a favourite you'd like us to prioritize.
+          </p>
+        </div>
+      </div> 
+    </div>
+
+    <div class="row">
+      <div class="pt-5 pb-5 d-flex justify-content-center">
+        <!-- card -->
+       <div>
+        <div class="mr-4 p-2 pt-5 rounded shadow card d-flex align-items-center" style="width: 18rem;">
+          <img src="img/logo-chrome.svg" class="card-img" style="max-width: 40%">
+          <div class="card-body pt-4">
+            <h5 class="text-center card-title">Add to Chrome</h5>
+            <p class="text-center card-text">Minimum version 62</p>
+            <div class="pb-4">
+              <img src="img/bg-dots.svg" class="card-img">
+            </div>
+            <div class="d-flex justify-content-center w-100">
+            <a href="#" class="btn btn-primary">Add and install extension</a>
+            </div>
+          </div>
+        </div>
+      </div>  
+        <!--  card 2 -->
+      <div class="pt-5">
+        <div class="mr-4 p-2 pt-5 rounded shadow card d-flex align-items-center" style="width: 18rem;">
+          <img src="img/logo-firefox.svg" class="card-img" style="max-width: 40%">
+          <div class="card-body pt-4">
+            <h5 class="text-center card-title">Add to Chrome</h5>
+            <p class="text-center card-text">Minimum version 55</p>
+            <div class="pb-4">
+              <img src="img/bg-dots.svg" class="card-img">
+            </div>
+            <div class="d-flex justify-content-center w-100">
+            <a href="#" class="btn btn-primary">Add and install extension</a>
+            </div>
+          </div>
+        </div>
+      </div>   
+        <!-- card 3 -->
+      <div class="pt-6"> 
+        <div class="p-2 pt-5 rounded shadow card d-flex align-items-center" style="width: 18rem;">
+          <img src="img/logo-opera.svg" class="card-img" style="max-width: 40%">
+          <div class="card-body pt-4">
+            <h5 class="text-center card-title">Add to Opera</h5>
+            <p class="text-center card-text">Minimum version 46</p>
+            <div class="pb-4">
+              <img src="img/bg-dots.svg" class="card-img">
+            </div>
+            <div class="d-flex justify-content-center w-100">
+            <a href="#" class="btn btn-primary">Add and install extension</a>
+            </div>
+          </div>
+        </div>
+        <!-- fin card 3 -->
+      </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
