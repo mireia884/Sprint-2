@@ -1,0 +1,13 @@
+$theme-colors: (
+  "primary": #5265E1,
+  "danger": #FA5959,
+  "secondary": #e9ecef,
+);
+
+$h1-font-size : 3rem;
+
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
+
