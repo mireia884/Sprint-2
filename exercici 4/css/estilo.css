@@ -1,0 +1,240 @@
+.azul{
+   background-color: lightblue;
+}
+
+.verde{
+    background-color: rgb(211, 223, 201);
+}
+
+.lila{
+  background-color: rgb(199, 168, 214);
+}
+
+
+
+.navbar-nav > li{
+    margin-left:15px;
+    margin-right:15px;
+  }
+
+  .btn {
+    min-width: 30%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+
+/* forma detrás de la img SVG */
+
+.forma1{
+    width: 50%;
+    height: 40%;
+    background-color: #5265E1;
+    z-index: -1;
+    position: absolute;
+    top: 42%;
+    left: 20%;
+    border-bottom-left-radius: 200px;
+}
+
+.forma2{
+    width: 95%;
+    height: 75%;
+    background-color: #5265E1;
+    z-index: -1;
+    position: absolute;
+    top: 42%;
+    right: 10%;
+    border-bottom-right-radius: 200px;
+}
+
+/* Tabs */
+
+a:link { 
+    text-decoration: none; 
+  }
+  
+.tabbable-panel {
+    border:1px solid #eee;
+    padding: 10px;
+  }
+  
+  /* Default mode */
+  .tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+  }
+  .tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+  }
+  .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: #737373;
+  }
+  .tabbable-line > .nav-tabs > li > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 4px solid #FA5959;
+    padding-bottom: 15px;
+  }
+  .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: #e24343;
+  }
+  .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0px;
+  }
+  .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 4px solid #FA5959;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  .tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.active > a > i {
+    color: #404040;
+  }
+  .tabbable-line > .tab-content {
+    margin-top: -3px;
+    background-color: #fff;
+    border: 0;
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+  }
+  .portlet .tabbable-line > .tab-content {
+    padding-bottom: 0;
+  }
+  
+  /* Below tabs mode */
+  
+  .tabbable-line.tabs-below > .nav-tabs > li {
+    border-top: 4px solid transparent;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li > a {
+    margin-top: 0;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li:hover {
+    border-bottom: 0;
+    border-top: 4px solid #fbcdcf;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li.active {
+    margin-bottom: -2px;
+    border-bottom: 0;
+    border-top: 4px solid #f3565d;
+  }
+  .tabbable-line.tabs-below > .tab-content {
+    margin-top: -10px;
+    border-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+  }
+
+  /* Accordion css */
+
+  .collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.collapsible-link::before {
+    content: '\f107';
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    transform: translateY(-50%);
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 1.1rem;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    content: '\f106';
+}
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active, 
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+}
+
+.cajaBookmark{
+  width: 50%;
+}
+
+.cajaTexto1{
+  width: 50%;
+}
+
+.cajaBotones{
+  width: 50%;
+}
+
+.divTabs{
+  width: 100%;
+}
+
+
+
+/* Media queries
+   Tablets, Ipads
+   resolució 768px a 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    /* menú hamburguesa */
+
+  }  
+
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+  .cajaBookmark{
+    width: 100%;
+    padding: 5%;
+  }
+  
+  .cajaTexto1{
+    width: 95%;
+  }
+
+  .cajaBotones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .divTabs{
+    width: 100%;
+  }  
+  
+  
+}
+
+
