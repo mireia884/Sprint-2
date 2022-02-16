@@ -41,24 +41,24 @@ h1{
 /* forma detrás de la img SVG */
 
 .forma1{
-    width: 80%;
-    height: 70%;
+    width: 40%;
+    height: 40%;
     background-color: #5265E1;
     z-index: -1;
     position: absolute;
-    top: 42%;
-    left: 20%;
+    top: 32%;
+    left: 60%;
     border-bottom-left-radius: 200px;
 }
 
 .forma2{
-    width: 95%;
-    height: 75%;
+    width: 40%;
+    height: 40%;
     background-color: #5265E1;
     z-index: -1;
     position: absolute;
-    top: 42%;
-    right: 10%;
+    bottom: -60%;
+    right: 60%;
     border-bottom-right-radius: 200px;
 }
 
